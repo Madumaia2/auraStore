@@ -1,0 +1,227 @@
+.navColor {
+  background-color: #A3C4D9;
+  padding: 10px;
+}
+
+.products {
+    background-color: #FACFCE;
+    margin-top: 2%;
+    border-radius: 0;
+}
+
+.link-product :hover{ background-color: #A3C4D9 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+ 
+.img-square {
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #0000009c;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  transition: transform 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.img-square img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+ 
+.img-square p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+ 
+.card:hover {
+  transform: scale(1.05);
+}
+
+.search-container {
+  margin-bottom: 3%;
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  background-color: #FACFCE;
+  box-shadow: 0 4px 8px #c79292;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.product-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-name {
+  font-weight: bold;
+  margin-top: 10px;
+  float: inline-start;
+  margin-left: 23px;
+}
+ 
+.product-icon1 {
+  font-weight: bold;
+  margin-top: 10px;
+  float: inline-end;
+  margin-right: 23px;
+}
+ 
+.product-icon2 {
+  font-weight: bold;
+  margin-top: 10px;
+  float: inline-end;
+  margin-right: 23px;
+  padding-bottom: 10px;
+}
+
+.img-fundo {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/back22\ -\ Copia\ -\ Copia.JPG'); /* Substitua pelo caminho da sua imagem */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Deixa a imagem fixa no fundo */
+}
+
+/* Footer -> */
+.footer{
+  background-color: #121213;
+  width: 100%;
+  height:100%;
+  float: left;
+  font-size: 18px;
+  padding: 50px 10px 50px 10px;
+ }
+ 
+ .footer .left{ 
+  width:100%; 
+  float:left; 
+  border-bottom:1px #222424 solid;
+  border-right:0; 
+  padding-bottom:20px;
+ }
+
+
+ .footer .footer-icons{
+  width:100%;
+  float:left;
+  margin-bottom:20px;
+ }
+ 
+ .Copyright{
+  color: #ffffff;
+ }
+ 
+ .footer .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 50px;
+  font-family:'DM Sans', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center; 
+  line-height: 35px;
+  margin-bottom: 5px;
+  transition:0.3s;
+ }
+ 
+ .footer .footer-icons a:hover{ background-color:#2fcacf; }
+ 
+ /*Responsive*/
+ @media (min-width: 1280px) {
+ 
+  .footer               { padding: 50px 50px 50px 100px; }
+  .footer .Copyright    { font-size: 16px; }
+ 
+ }
+ 
+
+
+ .slider-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%; /* Define a largura do container */
+  overflow: hidden; /* Oculta os cards fora da faixa */
+  margin-bottom: 40px;
+}
+
+.cards-wrapper-container {
+  width: 100%;
+  overflow: hidden; /* Limita o número de cards visíveis */
+}
+
+.cards-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-prct {
+  flex: 0 0 30%; /* Cada card ocupa 30% do espaço visível */
+  margin: 0 10px; /* Espaçamento entre os cards */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.arrow {
+  background-color: #D8DBE2;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: #A3C4D9;
+}
