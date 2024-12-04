@@ -8,6 +8,7 @@
     --dark: #1B1E27;
     --border: hsla(225, 18%, 13%, 0.2);
     --primary-color-dark: #445f75;
+    --pink: #FACFCE;
 }
 
 @media only screen and (max-width: 800px) {

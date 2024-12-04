@@ -108,9 +108,9 @@ body {
 .img-fundo {
   margin: 0;
   padding: 0;
-  background-image: url('../img/back22\ -\ Copia\ -\ Copia.JPG'); /* Substitua pelo caminho da sua imagem */
-  background-position: center; /* Centraliza a imagem */
-  background-attachment: fixed; /* Deixa a imagem fixa no fundo */
+  background-image: url('../img/back22\ -\ Copia\ -\ Copia.JPG'); 
+  background-position: center;
+  background-attachment: fixed; 
 }
 
 /* Footer -> */
